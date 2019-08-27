@@ -19,16 +19,6 @@ def map_to_no_change(array)
   return new_array
 end
 
-def map_to_no_change(array)
-    counter = 0
-    new_array = []
-    while counter < array.length 
-    new_array << array[counter]
-    counter += 1
-  end
-  return new_array
-end
-
 def map_to_square(array)
   counter = 0
   new_array = []
