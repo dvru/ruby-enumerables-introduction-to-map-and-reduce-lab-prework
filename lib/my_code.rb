@@ -19,6 +19,16 @@ def map_to_no_change(array)
   return new_array
 end
 
+def map_to_double(array)
+    counter = 0
+    new_array = []
+    while counter < array.length 
+    new_array << array[counter] * 2
+    counter += 1
+  end
+  return new_array
+end
+
 def map_to_square(array)
   counter = 0
   new_array = []
